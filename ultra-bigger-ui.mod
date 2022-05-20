@@ -1,5 +1,5 @@
-name="Ultra - Bigger UI"
-version="0.10.*"
+name="Ultra - Myzael's UI"
+version="0.12.*"
 tags={
 	"Map"
 	"Historical"
@@ -11,4 +11,4 @@ dependencies={
 }
 picture="ultra.jpg"
 supported_version="1.11.*"
-remote_file_id="2690901473"
+remote_file_id="2810322753"
