@@ -191,7 +191,8 @@ guiTypes = {
 	containerWindowType = {
 		name ="ingamemenu_load"
 		position = { x = -236 y = -270 }
-		size = { width = 420 height = 500}
+		# size = { width = 420 height = 500}
+		size = { width = 420 height = 940}
 		Orientation = center
 
 
@@ -199,7 +200,8 @@ guiTypes = {
 		containerWindowType = {
 			name ="games"
 			position = { x = 75 y = 126 }	
-			size = { width = 350 height = 370}
+			size = { width = 350 height = 810}
+			# size = { width = 350 height = 370}
 			verticalScrollbar = "right_vertical_slider"
 			scroll_wheel_factor = 55
 			smooth_scrolling = yes
@@ -225,8 +227,10 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "games_grid"
-				position = { x=13 y =24}
-				size = { width =280 height = 400}
+				# position = { x=13 y =24}
+				position = { x=13 y =4}
+				# size = { width =280 height = 400}
+				size = { width =280 height = 820}
 				slotsize = { width = 280 height = 55 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
@@ -246,7 +250,8 @@ guiTypes = {
 		{
 			name ="menu_bottom"
 			spriteType = "GFX_load_save_bottom"
-			position = { x= 76 y = 490 }
+			position = { x= 76 y = 930 }
+			# position = { x= 76 y = 490 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -310,7 +315,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "load"
-			position = { x = 245 y = 503 }
+			# position = { x = 245 y = 503 }
+			position = { x = 245 y = 943 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "MENU_BAR_LOAD"
 			buttonFont = "hoi_20b"
@@ -322,7 +328,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "cancel"
-			position = { x = 100 y = 503 }
+			# position = { x = 100 y = 503 }
+			position = { x = 100 y = 943 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "hoi_20b"
@@ -336,7 +343,8 @@ guiTypes = {
 	containerWindowType = {
 		name ="ingamemenu_save"
 		position = { x = -236 y = -270 }
-		size = { width = 420 height = 500}
+		# size = { width = 420 height = 500}
+		size = { width = 420 height = 940}
 		Orientation = center
 		
 		iconType =
@@ -351,14 +359,16 @@ guiTypes = {
 		{
 			name ="menu_bottom"
 			spriteType = "GFX_load_save_bottom_screen"
-			position = { x= 76 y = 446 }
+			# position = { x= 76 y = 446 }
+			position = { x= 76 y = 866 }
 			Orientation = "UPPER_LEFT"
 		}
 			
 		instantTextBoxType = 
 		{
 			name = "saves_dirs"
-			position = { x = 10 y = 375 }
+			# position = { x = 10 y = 375 }
+			position = { x = 10 y = 795 }
 			textureFile = ""
 			font = "hoi_20bs"
 			borderSize = {x = 0 y = 4}
@@ -415,7 +425,8 @@ guiTypes = {
 		containerWindowType = {
 			name ="games"
 			position = { x = 75 y = 126 }
-			size = { width = 350 height = 320}
+			# size = { width = 350 height = 320}
+			size = { width = 350 height = 740}
 			verticalScrollbar = "right_vertical_slider"
 			vertical_scroll_step = 5
 			
@@ -441,7 +452,8 @@ guiTypes = {
 			gridBoxType = {
 				name = "games_grid"
 				position = { x=13 y=24}
-				size = { width =280 height = 400}
+				# size = { width =280 height = 400}
+				size = { width =280 height = 840}
 				slotsize = { width = 280 height = 55 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
@@ -450,7 +462,8 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 93 y = 450 }
+			# position = {x = 93 y = 450 }
+			position = {x = 93 y = 870 }
 			name = "filename_label"
 			font = "hoi_16mbs"
 			borderSize = {x = 8 y = 0}	
@@ -462,7 +475,8 @@ guiTypes = {
 		}
 		
 		editBoxType = {
-			position = { x = 115 y = 465 }
+			# position = { x = 115 y = 465 }
+			position = { x = 115 y = 885 }
 			name = "game_name"
 			font = "hoi_16mbs"
 			borderSize = { x = 4 y = 8  }	
@@ -473,7 +487,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "cancel"
-			position = { x = 100 y = 503 }
+			# position = { x = 100 y = 503 }
+			position = { x = 100 y = 923 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "hoi_20b"
@@ -485,7 +500,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "save"
-			position = { x = 245 y = 503 }
+			# position = { x = 245 y = 503 }
+			position = { x = 245 y = 923 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "MENU_BAR_SAVE"
 			buttonFont = "hoi_20b"
