@@ -602,7 +602,7 @@ guiTypes = {
 			name = "air_wings_list"
 			position = { x = 6 y = 6 }
 			# size = { x = 550 y = 428 } # Only max size before we start scrolling, will scale to lower if needed
-			size = { x = 550 y = 610 } # Only max size before we start scrolling, will scale to lower if needed
+			size = { x = 550 y = 900 } # Only max size before we start scrolling, will scale to lower if needed
 			scrollbartype = "standardlistbox_slider"
 		}
 
@@ -750,7 +750,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "air_mission_entry_3_target_btn"
-		position = {x=0 y=0}
+		position = {x=9 y=0}
 		size = { width=47 height=34 }
 		Orientation = upper_left
 
