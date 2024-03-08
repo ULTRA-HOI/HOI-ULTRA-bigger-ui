@@ -10,5 +10,5 @@ dependencies={
 	"Ultra Historical Mod - Realism Overhaul"
 }
 picture="ultra.jpg"
-supported_version="1.13.*"
+supported_version="1.14.*"
 remote_file_id="2810322753"
