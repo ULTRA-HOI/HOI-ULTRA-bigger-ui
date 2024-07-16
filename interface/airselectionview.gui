@@ -562,7 +562,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "unassigned_airwings_view"
 		position = {x=0 y=0}
-		size = { width=582 height=430 } # height set in code, but initial value here is used for max allowed height
+		# size = { width=582 height=430 } # height set in code, but initial value here is used for max allowed height
+		size = { width=582 height=900 } # height set in code, but initial value here is used for max allowed height
 		Orientation = upper_left
 		clipping = no
 
@@ -602,7 +603,7 @@ guiTypes = {
 			name = "air_wings_list"
 			position = { x = 6 y = 6 }
 			# size = { x = 550 y = 428 } # Only max size before we start scrolling, will scale to lower if needed
-			size = { x = 550 y = 900 } # Only max size before we start scrolling, will scale to lower if needed
+			size = { x = 550 y = 898 } # Only max size before we start scrolling, will scale to lower if needed
 			scrollbartype = "standardlistbox_slider"
 		}
 
@@ -986,7 +987,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "air_selection_view"
 		position = {x=0 y=77}
-		size = { width=502 height=430 } # height set in code, but initial value here is used for max allowed height
+		size = { width=502 height=900 } # height set in code, but initial value here is used for max allowed height
 		Orientation = upper_left
 		clipping = no
 
