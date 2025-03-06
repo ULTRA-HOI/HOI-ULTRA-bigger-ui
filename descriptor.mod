@@ -1,5 +1,5 @@
 name="Ultra - Myzael's UI"
-version="0.16.*"
+version="0.17.*"
 tags={
 	"Map"
 	"Historical"
@@ -10,5 +10,5 @@ dependencies={
 	"Ultra Historical Mod - Realism Overhaul"
 }
 picture="ultra.jpg"
-supported_version="1.14.*"
+supported_version="1.16.*"
 remote_file_id="2810322753"
