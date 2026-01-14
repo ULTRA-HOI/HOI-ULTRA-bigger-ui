@@ -1,14 +1,7 @@
-name="Ultra - Myzael's UI"
-version="0.18.*"
+name="Myzael's 4K UI"
+version="0.1.*"
 tags={
-	"Map"
-	"Historical"
-	"Fixes"
-	"Balance"
+	"Interface"
 }
-dependencies={
-	"Ultra Historical Mod"
-}
-picture="ultra.jpg"
+picture="thumbnail.png"
 supported_version="1.16.*"
-remote_file_id="2810322753"
